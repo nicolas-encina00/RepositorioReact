@@ -1,13 +1,15 @@
+import React from 'react';
 import './App.css';
-import Home from './Home';
+import Home from '../src/pages/Home';
+import Navbar from './components/Navbar';
+import {ItemListContainer} from './container/ItemListContainer'
 
 function App() {
-  
-  const styles = {}
 
   return (
     <>
     <Home />
+    <ItemListContainer/>
     </>
   );
 }
